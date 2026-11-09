@@ -3,9 +3,7 @@
 
 I turn complex programme and research data into reliable evidence, clear visualisations and practical insights for decision-making.
 
-I am a Nairobi-based MEL and data analytics professional with a **BSc in Agricultural Economics (Egerton University, 2014)** and independent analytical experience dating to **2016**. My work sits at the intersection of monitoring, evaluation and learning (MEL/MEAL), research methods, data quality, statistical analysis and business intelligence.
-
-I build reproducible analytical workflows—from digital data collection and data cleaning to statistical analysis, interactive dashboards and decision-ready reporting.
+I am a Nairobi-based MEL and data analytics professional with a **BSc in Agricultural Economics (Egerton University, 2014)** and independent analytical experience dating to **2016**. My work combines monitoring, evaluation and learning (MEL/MEAL), research methods, data quality, statistical analysis and business intelligence.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://linkedin.com/in/larry-onyango-96a205129/)
 [![GitHub](https://img.shields.io/badge/GitHub-Mclarroh-181717?logo=github)](https://github.com/Mclarroh)
@@ -13,58 +11,66 @@ I build reproducible analytical workflows—from digital data collection and dat
 
 ---
 
-## What I bring
+## Featured analytical portfolios
 
-- **Monitoring, Evaluation & Learning:** MEL/MEAL frameworks, indicator tracking, results measurement, data-quality assessments and evaluation support.
-- **Quantitative research & statistics:** survey analysis, descriptive and inferential statistics, regression and Difference-in-Differences (DiD).
-- **Qualitative research:** support for IDIs, FGDs, KIIs, qualitative data organisation and analysis.
-- **Data engineering & quality assurance:** cleaning, validation, reproducible pipelines, documentation and automated testing.
-- **Data visualisation & reporting:** Power BI dashboards, analytical charts, maps and clear technical reports.
-- **Digital data collection:** KoboToolbox/ODK, SurveyCTO and structured questionnaire workflows.
+The two projects below demonstrate complementary capabilities: agricultural survey analytics and integrated MEL / impact-evaluation analysis. **Every visualisation currently published in each project is previewed below.**
 
-## Featured public portfolio
+# 1. AgriSurvey Analytics Pipeline
+**Agricultural survey data cleaning, analysis, geospatial mapping and automated reporting**
 
-These are my two currently published public project repositories. Each project demonstrates a practical analytical workflow and supporting documentation.
+A Python-based workflow demonstrating survey-data cleaning and validation, quantitative analysis, GPS mapping, qualitative-analysis support and automated report generation.
 
-### 1. AgriSurvey Analytics Pipeline
-**End-to-end agricultural survey analytics and reporting**
+**Core methods and tools:** Python · pandas · NumPy · Matplotlib · Seaborn · Folium · MAXQDA · Word reporting
 
-A Python-based workflow demonstrating survey-data cleaning and validation, quantitative analysis, GPS mapping, qualitative-analysis support and automated report generation for agricultural research and development contexts.
+[**Open AgriSurvey repository →**](https://github.com/Mclarroh/AgriSurvey-Analytics-Pipeline)
 
-**Demonstrates:** Python, pandas, NumPy, data quality assurance, statistical analysis, Folium mapping, MAXQDA workflows and automated Word reporting.
+### Visualisation gallery
 
-[**Explore AgriSurvey Analytics Pipeline →**](https://github.com/Mclarroh/AgriSurvey-Analytics-Pipeline)
+**Farmer age distribution**  
+![Farmer age distribution](https://raw.githubusercontent.com/Mclarroh/AgriSurvey-Analytics-Pipeline/main/outputs/01_age_distribution.png)
 
-#### AgriSurvey GPS map preview
+**Farm-size distribution**  
+![Farm-size distribution](https://raw.githubusercontent.com/Mclarroh/AgriSurvey-Analytics-Pipeline/main/outputs/02_farm_size_distribution.png)
 
-The preview below visualises the geographic coverage of **146 synthetic GPS records**, aggregated into grid cells for a clear portfolio view.
+**Main crops reported**  
+![Main crops reported](https://raw.githubusercontent.com/Mclarroh/AgriSurvey-Analytics-Pipeline/main/outputs/03_main_crops.png)
 
-![AgriSurvey geographic map showing 146 synthetic GPS points over central Kenya county boundaries](https://raw.githubusercontent.com/Mclarroh/AgriSurvey-Analytics-Pipeline/main/docs/images/farmer-gps-map.svg)
+**Yield by fertiliser use**  
+![Yield by fertiliser use](https://raw.githubusercontent.com/Mclarroh/AgriSurvey-Analytics-Pipeline/main/outputs/04_yield_by_fertilizer.png)
 
-[**View the full-size GPS map**](https://github.com/Mclarroh/AgriSurvey-Analytics-Pipeline/blob/main/docs/images/farmer-gps-map.svg) · [**Download the interactive Folium map (HTML)**](https://raw.githubusercontent.com/Mclarroh/AgriSurvey-Analytics-Pipeline/main/outputs/farmers_map.html)
+**Farm size and estimated income**  
+![Farm size versus estimated income](https://raw.githubusercontent.com/Mclarroh/AgriSurvey-Analytics-Pipeline/main/outputs/05_size_vs_income.png)
 
-<sub>The profile preview is a static cartographic map plotting all 146 synthetic GPS positions over county boundaries—not a coordinate grid. The downloadable HTML contains the interactive Leaflet/Folium map with clustered synthetic markers and popups; open the downloaded file in a browser to explore it.</sub>
+### Geographic visualisation — 146 synthetic GPS records
 
-### 2. Kenya Development Impact Analytics
+![AgriSurvey map showing 146 synthetic GPS survey positions across central Kenya counties](https://raw.githubusercontent.com/Mclarroh/AgriSurvey-Analytics-Pipeline/main/docs/images/farmer-gps-map.svg)
+
+[**View full-size GPS map**](https://github.com/Mclarroh/AgriSurvey-Analytics-Pipeline/blob/main/docs/images/farmer-gps-map.svg) · [**Open interactive Folium map (HTML)**](https://raw.githubusercontent.com/Mclarroh/AgriSurvey-Analytics-Pipeline/main/outputs/farmers_map.html)
+
+<sub>All AgriSurvey records, phone numbers, device identifiers, usernames and GPS coordinates were personally generated as fictional dummy/test data. The map is a static preview; the linked HTML contains the interactive Folium map.</sub>
+
+---
+
+# 2. Kenya Development Impact Analytics
 **Integrated Python + R + Power BI MEL and impact-evaluation project**
 
-A reproducible portfolio project simulating a climate-smart agriculture programme across Bungoma, Kitui, Nyeri and Siaya. It uses a fictional dataset of 600 beneficiaries observed at baseline and endline (1,200 records) to demonstrate data preparation, quality assurance, statistical analysis and interactive reporting.
+A reproducible project simulating a climate-smart agriculture programme across Bungoma, Kitui, Nyeri and Siaya. It uses a fictional dataset of 600 beneficiaries observed at baseline and endline (1,200 records) to demonstrate data preparation, quality assurance, statistical analysis and interactive reporting.
 
-**Demonstrates:** Python data pipelines and tests, R statistical modelling, Difference-in-Differences, robust and beneficiary-clustered standard errors, and Power BI dashboard design.
+**Core methods and tools:** Python · R · pandas · pytest · Difference-in-Differences · robust and beneficiary-clustered standard errors · Power BI
 
-[**Explore the project repository →**](https://github.com/Mclarroh/kenya-development-impact-analytics) · [Methodology](https://github.com/Mclarroh/kenya-development-impact-analytics/blob/main/docs/methodology.md) · [Data dictionary](https://github.com/Mclarroh/kenya-development-impact-analytics/blob/main/docs/data_dictionary.md)
+[**Open Kenya Development Impact Analytics repository →**](https://github.com/Mclarroh/kenya-development-impact-analytics) · [Methodology](https://github.com/Mclarroh/kenya-development-impact-analytics/blob/main/docs/methodology.md) · [Data dictionary](https://github.com/Mclarroh/kenya-development-impact-analytics/blob/main/docs/data_dictionary.md)
 
-#### Dashboard previews
+### Power BI visualisation gallery
 
-**Household welfare dashboard**
+**1. Household welfare dashboard**
 
-![Household Welfare Power BI Dashboard](https://raw.githubusercontent.com/Mclarroh/kenya-development-impact-analytics/main/dashboard/screenshots/household-welfare.PNG)
+![Household Welfare Power BI dashboard](https://raw.githubusercontent.com/Mclarroh/kenya-development-impact-analytics/main/dashboard/screenshots/household-welfare.PNG)
 
-**Impact evaluation dashboard**
+**2. Impact evaluation dashboard**
 
-![Impact Evaluation Power BI Dashboard](https://raw.githubusercontent.com/Mclarroh/kenya-development-impact-analytics/main/dashboard/screenshots/impact-evaluation.PNG)
+![Impact Evaluation Power BI dashboard](https://raw.githubusercontent.com/Mclarroh/kenya-development-impact-analytics/main/dashboard/screenshots/impact-evaluation.PNG)
 
-<sub>Important: The Kenya Development Impact Analytics dataset, programme and findings are entirely synthetic and are presented for demonstration and portfolio purposes only. They do not represent actual Kenyan households, a real programme or verified programme impact.</sub>
+<sub>The Kenya Development Impact Analytics programme, dataset and findings are entirely synthetic. The dashboards are portfolio demonstrations and do not represent actual households, a real programme or verified impact.</sub>
 
 ---
 
@@ -73,22 +79,16 @@ A reproducible portfolio project simulating a climate-smart agriculture programm
 | Area | Tools and methods |
 |---|---|
 | Programming & analysis | Python, R, SQL, pandas, NumPy, SciPy |
-| Statistics | SPSS, Stata, R, regression, DiD, hypothesis testing |
+| Statistics & evaluation | SPSS, Stata, regression, Difference-in-Differences, hypothesis testing |
 | Business intelligence | Power BI, Tableau, Excel |
-| Data collection | SurveyCTO, KoboToolbox, ODK, Google Forms |
+| Digital data collection | SurveyCTO, KoboToolbox, ODK, Google Forms |
 | Qualitative research | NVivo, MAXQDA, ATLAS.ti |
 | Spatial analysis | QGIS, Folium |
-| Workflow & productivity | Git, GitHub, VS Code, Microsoft Project |
+| Workflow | Git, GitHub, VS Code, Microsoft Project |
 
-## How I work
+## Professional focus
 
-**Evidence first. Reproducible methods. Clear communication.**
-
-I value sound methodology, transparent data-quality decisions, well-documented code and visualisations that help programme teams, researchers and decision-makers understand what the evidence does—and does not—show.
-
-## Professional interests
-
-MEL/MEAL and research roles · Data Analyst / Statistician roles · Research and evaluation consultancies · Data quality and analytics systems · Development impact measurement
+MEL/MEAL systems · Research and evaluation · Data quality assurance · Statistical analysis · Impact measurement · Data visualisation and reporting
 
 ## Let's connect
 
