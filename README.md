@@ -39,11 +39,11 @@ A Python-based workflow demonstrating survey-data cleaning and validation, quant
 
 The preview below visualises the geographic coverage of **146 synthetic GPS records**, aggregated into grid cells for a clear portfolio view.
 
-![AgriSurvey aggregated GPS coverage map](https://raw.githubusercontent.com/Mclarroh/AgriSurvey-Analytics-Pipeline/main/docs/images/farmer-gps-coverage.svg)
+![AgriSurvey geographic map showing 146 synthetic GPS points over central Kenya county boundaries](https://raw.githubusercontent.com/Mclarroh/AgriSurvey-Analytics-Pipeline/main/docs/images/farmer-gps-map.svg)
 
-[**View the GPS coverage map**](https://github.com/Mclarroh/AgriSurvey-Analytics-Pipeline/blob/main/docs/images/farmer-gps-coverage.svg) · [**Download the interactive Folium map (HTML)**](https://github.com/Mclarroh/AgriSurvey-Analytics-Pipeline/raw/refs/heads/main/outputs/farmers_map.html)
+[**View the full-size GPS map**](https://github.com/Mclarroh/AgriSurvey-Analytics-Pipeline/blob/main/docs/images/farmer-gps-map.svg) · [**Download the interactive Folium map (HTML)**](https://raw.githubusercontent.com/Mclarroh/AgriSurvey-Analytics-Pipeline/main/outputs/farmers_map.html)
 
-<sub>The profile preview is a static aggregated map. The downloadable HTML contains the interactive Leaflet/Folium map with clustered synthetic markers and popups; open the downloaded file in a browser to explore it.</sub>
+<sub>The profile preview is a static cartographic map plotting all 146 synthetic GPS positions over county boundaries—not a coordinate grid. The downloadable HTML contains the interactive Leaflet/Folium map with clustered synthetic markers and popups; open the downloaded file in a browser to explore it.</sub>
 
 ### 2. Kenya Development Impact Analytics
 **Integrated Python + R + Power BI MEL and impact-evaluation project**
